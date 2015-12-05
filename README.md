@@ -11,6 +11,7 @@ All you have to do to install FightClub is drag and drop the jar into your plugi
 ### Commands
     /fight <player name> <arena> - Challenges another user to a fight in the specified arena
     /fightaccept - Accepts a challenge sent by another player
+    /listarenas - Lists available arenas.
 
 ### Admin Commands
     /createarena <name> - Creates an arena with the specified name.
