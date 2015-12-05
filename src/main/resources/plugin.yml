@@ -1,0 +1,35 @@
+name: FightClub
+version: @version@
+description: Don't talk about Fight Club
+author: wewlad
+main: pw.kimbo.fightclub.FightClubPlugin
+
+commands:
+  challenge:
+    description: Challenges another player to a fistfight.
+    usage: /challenge <player>
+    permission: fightclub.fight
+  challengeaccept:
+    description: Accepts another player's challenge
+    usage: /acceptchallenge
+    permission: fightclub.fight
+  fight:
+    description: Challenges another player to a fistfight.
+    usage: /challenge <player>
+    permission: fightclub.fight
+  fightaccept:
+    description: Accepts another player's challenge
+    usage: /acceptchallenge
+    permission: fightclub.fight
+  listarenas:
+    description: Lists the open and unused arenas.
+    usage: /listarenas
+    permission: fightclub.fight
+  createarena:
+    description: Creates a new arena.
+    usage: /createarena <name>
+    permission: fightclub.admin
+  setarenaspawn:
+    description: Sets the spawn of a newly created arena.
+    usage: /setarenaspawn
+    permission: fightclub.admin
